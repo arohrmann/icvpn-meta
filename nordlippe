@@ -1,0 +1,20 @@
+asn: 65210
+tech-c:
+  - ar@freifunk-nordlippe.de
+networks:
+  ipv4:
+    - 10.136.0.0/16
+  ipv6:
+    - fd42:ffee:ff42::/64
+bgp:
+  nordlippe1:
+    ipv4: 10.136.1.1
+  nordlippe2:
+    ipv4: 10.136.2.1
+domains:
+  - ffnl
+  - 136.10.in-addr.arpa
+nameservers:
+  - 10.136.1.1
+  - 10.136.2.1
+  - 10.136.3.1
